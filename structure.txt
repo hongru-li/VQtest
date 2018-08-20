@@ -1,0 +1,662 @@
+.
+├── assassin360p
+│   ├── average.csv
+│   ├── fps
+│   ├── frames
+│   ├── res
+│   ├── v205_avc_0B
+│   │   ├── assassin_st4_360p30fps_25.264
+│   │   ├── assassin_st4_360p30fps_28.264
+│   │   ├── assassin_st4_360p30fps_31.264
+│   │   ├── assassin_st4_360p30fps_34.264
+│   │   ├── assassin_st4_360p30fps_37.264
+│   │   ├── assassin_st4_360p30fps_40.264
+│   │   ├── assassin_st4_360p30fps_43.264
+│   │   ├── assassin_st4_360p30fps_48.264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── v205_avc_3B
+│   │   ├── assassin_st4_360p30fps_25.264
+│   │   ├── assassin_st4_360p30fps_28.264
+│   │   ├── assassin_st4_360p30fps_31.264
+│   │   ├── assassin_st4_360p30fps_34.264
+│   │   ├── assassin_st4_360p30fps_37.264
+│   │   ├── assassin_st4_360p30fps_40.264
+│   │   ├── assassin_st4_360p30fps_43.264
+│   │   ├── assassin_st4_360p30fps_48.264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── x264_0B
+│   │   ├── assassin_st4_360p30fps_25.h264
+│   │   ├── assassin_st4_360p30fps_28.h264
+│   │   ├── assassin_st4_360p30fps_31.h264
+│   │   ├── assassin_st4_360p30fps_34.h264
+│   │   ├── assassin_st4_360p30fps_37.h264
+│   │   ├── assassin_st4_360p30fps_40.h264
+│   │   ├── assassin_st4_360p30fps_43.h264
+│   │   ├── assassin_st4_360p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── x264_0B_me32
+│   │   ├── assassin_st4_360p30fps_25.h264
+│   │   ├── assassin_st4_360p30fps_28.h264
+│   │   ├── assassin_st4_360p30fps_31.h264
+│   │   ├── assassin_st4_360p30fps_34.h264
+│   │   ├── assassin_st4_360p30fps_37.h264
+│   │   ├── assassin_st4_360p30fps_40.h264
+│   │   ├── assassin_st4_360p30fps_43.h264
+│   │   ├── assassin_st4_360p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── x264_0B_scenecut
+│   │   ├── assassin_st4_360p30fps_25.h264
+│   │   ├── assassin_st4_360p30fps_28.h264
+│   │   ├── assassin_st4_360p30fps_31.h264
+│   │   ├── assassin_st4_360p30fps_34.h264
+│   │   ├── assassin_st4_360p30fps_37.h264
+│   │   ├── assassin_st4_360p30fps_40.h264
+│   │   ├── assassin_st4_360p30fps_43.h264
+│   │   ├── assassin_st4_360p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── x264_3B
+│   │   ├── assassin_st4_360p30fps_25.h264
+│   │   ├── assassin_st4_360p30fps_28.h264
+│   │   ├── assassin_st4_360p30fps_31.h264
+│   │   ├── assassin_st4_360p30fps_34.h264
+│   │   ├── assassin_st4_360p30fps_37.h264
+│   │   ├── assassin_st4_360p30fps_40.h264
+│   │   ├── assassin_st4_360p30fps_43.h264
+│   │   ├── assassin_st4_360p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── x264_3B_defaultGOP
+│   │   ├── assassin_st4_360p30fps_25.h264
+│   │   ├── assassin_st4_360p30fps_28.h264
+│   │   ├── assassin_st4_360p30fps_31.h264
+│   │   ├── assassin_st4_360p30fps_34.h264
+│   │   ├── assassin_st4_360p30fps_37.h264
+│   │   ├── assassin_st4_360p30fps_40.h264
+│   │   ├── assassin_st4_360p30fps_43.h264
+│   │   ├── assassin_st4_360p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── x264_3B_defaultGOP_me32
+│   │   ├── assassin_st4_360p30fps_25.h264
+│   │   ├── assassin_st4_360p30fps_28.h264
+│   │   ├── assassin_st4_360p30fps_31.h264
+│   │   ├── assassin_st4_360p30fps_34.h264
+│   │   ├── assassin_st4_360p30fps_37.h264
+│   │   ├── assassin_st4_360p30fps_40.h264
+│   │   ├── assassin_st4_360p30fps_43.h264
+│   │   ├── assassin_st4_360p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── x264_3B_dynamic
+│   │   ├── assassin_st4_360p30fps_25.h264
+│   │   ├── assassin_st4_360p30fps_28.h264
+│   │   ├── assassin_st4_360p30fps_31.h264
+│   │   ├── assassin_st4_360p30fps_34.h264
+│   │   ├── assassin_st4_360p30fps_37.h264
+│   │   ├── assassin_st4_360p30fps_40.h264
+│   │   ├── assassin_st4_360p30fps_43.h264
+│   │   ├── assassin_st4_360p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── x264_3B_dynamic_defaultGOP
+│   │   ├── assassin_st4_360p30fps_25.h264
+│   │   ├── assassin_st4_360p30fps_28.h264
+│   │   ├── assassin_st4_360p30fps_31.h264
+│   │   ├── assassin_st4_360p30fps_34.h264
+│   │   ├── assassin_st4_360p30fps_37.h264
+│   │   ├── assassin_st4_360p30fps_40.h264
+│   │   ├── assassin_st4_360p30fps_43.h264
+│   │   ├── assassin_st4_360p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── x264_3B_me32
+│   │   ├── assassin_st4_360p30fps_25.h264
+│   │   ├── assassin_st4_360p30fps_28.h264
+│   │   ├── assassin_st4_360p30fps_31.h264
+│   │   ├── assassin_st4_360p30fps_34.h264
+│   │   ├── assassin_st4_360p30fps_37.h264
+│   │   ├── assassin_st4_360p30fps_40.h264
+│   │   ├── assassin_st4_360p30fps_43.h264
+│   │   ├── assassin_st4_360p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_360p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_360p30fps_48.csv
+│   ├── x264_log
+│   │   ├── assassin_st4_360p30fps_25.log
+│   │   ├── assassin_st4_360p30fps_28.log
+│   │   ├── assassin_st4_360p30fps_31.log
+│   │   ├── assassin_st4_360p30fps_34.log
+│   │   ├── assassin_st4_360p30fps_37.log
+│   │   ├── assassin_st4_360p30fps_40.log
+│   │   ├── assassin_st4_360p30fps_43.log
+│   │   └── assassin_st4_360p30fps_48.log
+│   ├── x264_log_0B
+│   ├── x264_log_0B_me32
+│   │   ├── assassin_st4_360p30fps_25.log
+│   │   ├── assassin_st4_360p30fps_28.log
+│   │   ├── assassin_st4_360p30fps_31.log
+│   │   ├── assassin_st4_360p30fps_34.log
+│   │   ├── assassin_st4_360p30fps_37.log
+│   │   ├── assassin_st4_360p30fps_40.log
+│   │   ├── assassin_st4_360p30fps_43.log
+│   │   └── assassin_st4_360p30fps_48.log
+│   ├── x264_log_0B_scenecut
+│   │   ├── assassin_st4_360p30fps_25.log
+│   │   ├── assassin_st4_360p30fps_28.log
+│   │   ├── assassin_st4_360p30fps_31.log
+│   │   ├── assassin_st4_360p30fps_34.log
+│   │   ├── assassin_st4_360p30fps_37.log
+│   │   ├── assassin_st4_360p30fps_40.log
+│   │   ├── assassin_st4_360p30fps_43.log
+│   │   └── assassin_st4_360p30fps_48.log
+│   ├── x264_log_3B
+│   │   ├── assassin_st4_360p30fps_25.log
+│   │   ├── assassin_st4_360p30fps_28.log
+│   │   ├── assassin_st4_360p30fps_31.log
+│   │   ├── assassin_st4_360p30fps_34.log
+│   │   ├── assassin_st4_360p30fps_37.log
+│   │   ├── assassin_st4_360p30fps_40.log
+│   │   ├── assassin_st4_360p30fps_43.log
+│   │   └── assassin_st4_360p30fps_48.log
+│   ├── x264_log_3B_defaultGOP
+│   │   ├── assassin_st4_360p30fps_25.log
+│   │   ├── assassin_st4_360p30fps_28.log
+│   │   ├── assassin_st4_360p30fps_31.log
+│   │   ├── assassin_st4_360p30fps_34.log
+│   │   ├── assassin_st4_360p30fps_37.log
+│   │   ├── assassin_st4_360p30fps_40.log
+│   │   ├── assassin_st4_360p30fps_43.log
+│   │   └── assassin_st4_360p30fps_48.log
+│   ├── x264_log_3B_defaultGOP_me32
+│   │   ├── assassin_st4_360p30fps_25.log
+│   │   ├── assassin_st4_360p30fps_28.log
+│   │   ├── assassin_st4_360p30fps_31.log
+│   │   ├── assassin_st4_360p30fps_34.log
+│   │   ├── assassin_st4_360p30fps_37.log
+│   │   ├── assassin_st4_360p30fps_40.log
+│   │   ├── assassin_st4_360p30fps_43.log
+│   │   └── assassin_st4_360p30fps_48.log
+│   ├── x264_log_3B_dynamic
+│   │   ├── assassin_st4_360p30fps_25.log
+│   │   ├── assassin_st4_360p30fps_28.log
+│   │   ├── assassin_st4_360p30fps_31.log
+│   │   ├── assassin_st4_360p30fps_34.log
+│   │   ├── assassin_st4_360p30fps_37.log
+│   │   ├── assassin_st4_360p30fps_40.log
+│   │   ├── assassin_st4_360p30fps_43.log
+│   │   └── assassin_st4_360p30fps_48.log
+│   ├── x264_log_3B_dynamic_defaultGOP
+│   │   ├── assassin_st4_360p30fps_25.log
+│   │   ├── assassin_st4_360p30fps_28.log
+│   │   ├── assassin_st4_360p30fps_31.log
+│   │   ├── assassin_st4_360p30fps_34.log
+│   │   ├── assassin_st4_360p30fps_37.log
+│   │   ├── assassin_st4_360p30fps_40.log
+│   │   ├── assassin_st4_360p30fps_43.log
+│   │   └── assassin_st4_360p30fps_48.log
+│   └── x264_log_3B_me32
+│       ├── assassin_st4_360p30fps_25.log
+│       ├── assassin_st4_360p30fps_28.log
+│       ├── assassin_st4_360p30fps_31.log
+│       ├── assassin_st4_360p30fps_34.log
+│       ├── assassin_st4_360p30fps_37.log
+│       ├── assassin_st4_360p30fps_40.log
+│       ├── assassin_st4_360p30fps_43.log
+│       └── assassin_st4_360p30fps_48.log
+├── assassin480p
+│   ├── average.csv
+│   ├── fps
+│   ├── frames
+│   ├── res
+│   ├── v205_avc_0B
+│   │   ├── assassin_st4_480p30fps_25.264
+│   │   ├── assassin_st4_480p30fps_28.264
+│   │   ├── assassin_st4_480p30fps_31.264
+│   │   ├── assassin_st4_480p30fps_34.264
+│   │   ├── assassin_st4_480p30fps_37.264
+│   │   ├── assassin_st4_480p30fps_40.264
+│   │   ├── assassin_st4_480p30fps_43.264
+│   │   ├── assassin_st4_480p30fps_48.264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_480p30fps_48.csv
+│   ├── v205_avc_3B
+│   │   ├── assassin_st4_480p30fps_25.264
+│   │   ├── assassin_st4_480p30fps_28.264
+│   │   ├── assassin_st4_480p30fps_31.264
+│   │   ├── assassin_st4_480p30fps_34.264
+│   │   ├── assassin_st4_480p30fps_37.264
+│   │   ├── assassin_st4_480p30fps_40.264
+│   │   ├── assassin_st4_480p30fps_43.264
+│   │   ├── assassin_st4_480p30fps_48.264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_480p30fps_48.csv
+│   ├── x264_0B
+│   │   ├── assassin_st4_480p30fps_25.h264
+│   │   ├── assassin_st4_480p30fps_28.h264
+│   │   ├── assassin_st4_480p30fps_31.h264
+│   │   ├── assassin_st4_480p30fps_34.h264
+│   │   ├── assassin_st4_480p30fps_37.h264
+│   │   ├── assassin_st4_480p30fps_40.h264
+│   │   ├── assassin_st4_480p30fps_43.h264
+│   │   ├── assassin_st4_480p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_480p30fps_48.csv
+│   ├── x264_3B
+│   │   ├── assassin_st4_480p30fps_25.h264
+│   │   ├── assassin_st4_480p30fps_28.h264
+│   │   ├── assassin_st4_480p30fps_31.h264
+│   │   ├── assassin_st4_480p30fps_34.h264
+│   │   ├── assassin_st4_480p30fps_37.h264
+│   │   ├── assassin_st4_480p30fps_40.h264
+│   │   ├── assassin_st4_480p30fps_43.h264
+│   │   ├── assassin_st4_480p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_480p30fps_48.csv
+│   ├── x264_3B_defaultGOP
+│   │   ├── assassin_st4_480p30fps_25.h264
+│   │   ├── assassin_st4_480p30fps_28.h264
+│   │   ├── assassin_st4_480p30fps_31.h264
+│   │   ├── assassin_st4_480p30fps_34.h264
+│   │   ├── assassin_st4_480p30fps_37.h264
+│   │   ├── assassin_st4_480p30fps_40.h264
+│   │   ├── assassin_st4_480p30fps_43.h264
+│   │   ├── assassin_st4_480p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_480p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_480p30fps_48.csv
+│   ├── x264_log
+│   │   ├── assassin_st4_480p30fps_25.log
+│   │   ├── assassin_st4_480p30fps_28.log
+│   │   ├── assassin_st4_480p30fps_31.log
+│   │   ├── assassin_st4_480p30fps_34.log
+│   │   ├── assassin_st4_480p30fps_37.log
+│   │   ├── assassin_st4_480p30fps_40.log
+│   │   ├── assassin_st4_480p30fps_43.log
+│   │   └── assassin_st4_480p30fps_48.log
+│   ├── x264_log_0B
+│   ├── x264_log_3B
+│   │   ├── assassin_st4_480p30fps_25.log
+│   │   ├── assassin_st4_480p30fps_28.log
+│   │   ├── assassin_st4_480p30fps_31.log
+│   │   ├── assassin_st4_480p30fps_34.log
+│   │   ├── assassin_st4_480p30fps_37.log
+│   │   ├── assassin_st4_480p30fps_40.log
+│   │   ├── assassin_st4_480p30fps_43.log
+│   │   └── assassin_st4_480p30fps_48.log
+│   └── x264_log_3B_defaultGOP
+│       ├── assassin_st4_480p30fps_25.log
+│       ├── assassin_st4_480p30fps_28.log
+│       ├── assassin_st4_480p30fps_31.log
+│       ├── assassin_st4_480p30fps_34.log
+│       ├── assassin_st4_480p30fps_37.log
+│       ├── assassin_st4_480p30fps_40.log
+│       ├── assassin_st4_480p30fps_43.log
+│       └── assassin_st4_480p30fps_48.log
+├── assassin720p
+│   ├── assassin_st4_720p30fps_3M.264
+│   ├── assassin_st4_720p30fps_4M.264
+│   ├── assassin_st4_720p30fps_assassin_st4_720p30fps_3M_psnr_yyuv.csv
+│   ├── assassin_st4_720p30fps_assassin_st4_720p30fps_4M_psnr_yyuv.csv
+│   ├── average.csv
+│   ├── fps
+│   ├── frame.csv
+│   ├── frames
+│   ├── log.txt
+│   ├── res
+│   ├── v205_avc_0B
+│   │   ├── assassin_st4_720p30fps_25.264
+│   │   ├── assassin_st4_720p30fps_28.264
+│   │   ├── assassin_st4_720p30fps_31.264
+│   │   ├── assassin_st4_720p30fps_34.264
+│   │   ├── assassin_st4_720p30fps_37.264
+│   │   ├── assassin_st4_720p30fps_40.264
+│   │   ├── assassin_st4_720p30fps_43.264
+│   │   ├── assassin_st4_720p30fps_48.264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_720p30fps_48.csv
+│   ├── v205_avc_3B
+│   │   ├── assassin_st4_720p30fps_25.264
+│   │   ├── assassin_st4_720p30fps_28.264
+│   │   ├── assassin_st4_720p30fps_31.264
+│   │   ├── assassin_st4_720p30fps_34.264
+│   │   ├── assassin_st4_720p30fps_37.264
+│   │   ├── assassin_st4_720p30fps_40.264
+│   │   ├── assassin_st4_720p30fps_43.264
+│   │   ├── assassin_st4_720p30fps_48.264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_720p30fps_48.csv
+│   ├── x264_0B
+│   │   ├── assassin_st4_720p30fps_25.h264
+│   │   ├── assassin_st4_720p30fps_28.h264
+│   │   ├── assassin_st4_720p30fps_31.h264
+│   │   ├── assassin_st4_720p30fps_34.h264
+│   │   ├── assassin_st4_720p30fps_37.h264
+│   │   ├── assassin_st4_720p30fps_40.h264
+│   │   ├── assassin_st4_720p30fps_43.h264
+│   │   ├── assassin_st4_720p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_720p30fps_48.csv
+│   ├── x264_3B
+│   │   ├── assassin_st4_720p30fps_25.h264
+│   │   ├── assassin_st4_720p30fps_28.h264
+│   │   ├── assassin_st4_720p30fps_31.h264
+│   │   ├── assassin_st4_720p30fps_34.h264
+│   │   ├── assassin_st4_720p30fps_37.h264
+│   │   ├── assassin_st4_720p30fps_40.h264
+│   │   ├── assassin_st4_720p30fps_43.h264
+│   │   ├── assassin_st4_720p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_720p30fps_48.csv
+│   ├── x264_3B_defaultGOP
+│   │   ├── assassin_st4_720p30fps_25.h264
+│   │   ├── assassin_st4_720p30fps_28.h264
+│   │   ├── assassin_st4_720p30fps_31.h264
+│   │   ├── assassin_st4_720p30fps_34.h264
+│   │   ├── assassin_st4_720p30fps_37.h264
+│   │   ├── assassin_st4_720p30fps_40.h264
+│   │   ├── assassin_st4_720p30fps_43.h264
+│   │   ├── assassin_st4_720p30fps_48.h264
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_25.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_28.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_31.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_34.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_37.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_40.csv
+│   │   ├── PSNR_SSIM_assassin_st4_720p30fps_43.csv
+│   │   └── PSNR_SSIM_assassin_st4_720p30fps_48.csv
+│   ├── x264_log
+│   │   ├── assassin_st4_720p30fps_25.log
+│   │   ├── assassin_st4_720p30fps_28.log
+│   │   ├── assassin_st4_720p30fps_31.log
+│   │   ├── assassin_st4_720p30fps_34.log
+│   │   ├── assassin_st4_720p30fps_37.log
+│   │   ├── assassin_st4_720p30fps_40.log
+│   │   ├── assassin_st4_720p30fps_43.log
+│   │   └── assassin_st4_720p30fps_48.log
+│   ├── x264_log_0B
+│   ├── x264_log_3B
+│   │   ├── assassin_st4_720p30fps_25.log
+│   │   ├── assassin_st4_720p30fps_28.log
+│   │   ├── assassin_st4_720p30fps_31.log
+│   │   ├── assassin_st4_720p30fps_34.log
+│   │   ├── assassin_st4_720p30fps_37.log
+│   │   ├── assassin_st4_720p30fps_40.log
+│   │   ├── assassin_st4_720p30fps_43.log
+│   │   └── assassin_st4_720p30fps_48.log
+│   └── x264_log_3B_defaultGOP
+│       ├── assassin_st4_720p30fps_25.log
+│       ├── assassin_st4_720p30fps_28.log
+│       ├── assassin_st4_720p30fps_31.log
+│       ├── assassin_st4_720p30fps_34.log
+│       ├── assassin_st4_720p30fps_37.log
+│       ├── assassin_st4_720p30fps_40.log
+│       ├── assassin_st4_720p30fps_43.log
+│       └── assassin_st4_720p30fps_48.log
+├── encode.sh
+├── extract_bitrate.sh
+├── measure2.py
+├── start26x.sh
+├── structure.txt
+├── VID
+│   ├── average.csv
+│   ├── fps
+│   ├── frames
+│   ├── res
+│   ├── v205_avc_0B
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_25.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_28.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_31.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_34.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_37.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_40.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_43.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_48.csv
+│   │   ├── VID_4mins_544x960_30fps_25.264
+│   │   ├── VID_4mins_544x960_30fps_28.264
+│   │   ├── VID_4mins_544x960_30fps_31.264
+│   │   ├── VID_4mins_544x960_30fps_34.264
+│   │   ├── VID_4mins_544x960_30fps_37.264
+│   │   ├── VID_4mins_544x960_30fps_40.264
+│   │   ├── VID_4mins_544x960_30fps_43.264
+│   │   └── VID_4mins_544x960_30fps_48.264
+│   ├── v205_avc_3B
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_25.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_28.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_31.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_34.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_37.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_40.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_43.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_48.csv
+│   │   ├── VID_4mins_544x960_30fps_25.264
+│   │   ├── VID_4mins_544x960_30fps_28.264
+│   │   ├── VID_4mins_544x960_30fps_31.264
+│   │   ├── VID_4mins_544x960_30fps_34.264
+│   │   ├── VID_4mins_544x960_30fps_37.264
+│   │   ├── VID_4mins_544x960_30fps_40.264
+│   │   ├── VID_4mins_544x960_30fps_43.264
+│   │   └── VID_4mins_544x960_30fps_48.264
+│   ├── x264_0B
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_25.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_28.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_31.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_34.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_37.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_40.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_43.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_48.csv
+│   │   ├── VID_4mins_544x960_30fps_25.h264
+│   │   ├── VID_4mins_544x960_30fps_28.h264
+│   │   ├── VID_4mins_544x960_30fps_31.h264
+│   │   ├── VID_4mins_544x960_30fps_34.h264
+│   │   ├── VID_4mins_544x960_30fps_37.h264
+│   │   ├── VID_4mins_544x960_30fps_40.h264
+│   │   ├── VID_4mins_544x960_30fps_43.h264
+│   │   └── VID_4mins_544x960_30fps_48.h264
+│   ├── x264_3B
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_25.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_28.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_31.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_34.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_37.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_40.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_43.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_48.csv
+│   │   ├── VID_4mins_544x960_30fps_25.h264
+│   │   ├── VID_4mins_544x960_30fps_28.h264
+│   │   ├── VID_4mins_544x960_30fps_31.h264
+│   │   ├── VID_4mins_544x960_30fps_34.h264
+│   │   ├── VID_4mins_544x960_30fps_37.h264
+│   │   ├── VID_4mins_544x960_30fps_40.h264
+│   │   ├── VID_4mins_544x960_30fps_43.h264
+│   │   └── VID_4mins_544x960_30fps_48.h264
+│   ├── x264_3B_defaultGOP
+│   │   ├── bitrate.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_25.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_28.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_31.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_34.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_37.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_40.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_43.csv
+│   │   ├── PSNR_SSIM_VID_4mins_544x960_30fps_48.csv
+│   │   ├── VID_4mins_544x960_30fps_25.h264
+│   │   ├── VID_4mins_544x960_30fps_28.h264
+│   │   ├── VID_4mins_544x960_30fps_31.h264
+│   │   ├── VID_4mins_544x960_30fps_34.h264
+│   │   ├── VID_4mins_544x960_30fps_37.h264
+│   │   ├── VID_4mins_544x960_30fps_40.h264
+│   │   ├── VID_4mins_544x960_30fps_43.h264
+│   │   └── VID_4mins_544x960_30fps_48.h264
+│   ├── x264_log
+│   ├── x264_log_0B
+│   ├── x264_log_3B
+│   │   ├── VID_4mins_544x960_30fps_25.log
+│   │   ├── VID_4mins_544x960_30fps_28.log
+│   │   ├── VID_4mins_544x960_30fps_31.log
+│   │   ├── VID_4mins_544x960_30fps_34.log
+│   │   ├── VID_4mins_544x960_30fps_37.log
+│   │   ├── VID_4mins_544x960_30fps_40.log
+│   │   ├── VID_4mins_544x960_30fps_43.log
+│   │   └── VID_4mins_544x960_30fps_48.log
+│   └── x264_log_3B_defaultGOP
+│       ├── VID_4mins_544x960_30fps_25.log
+│       ├── VID_4mins_544x960_30fps_28.log
+│       ├── VID_4mins_544x960_30fps_31.log
+│       ├── VID_4mins_544x960_30fps_34.log
+│       ├── VID_4mins_544x960_30fps_37.log
+│       ├── VID_4mins_544x960_30fps_40.log
+│       ├── VID_4mins_544x960_30fps_43.log
+│       └── VID_4mins_544x960_30fps_48.log
+├── VQ_AVC.cfg
+└── VQ_HEVC.cfg
+
+52 directories, 607 files
