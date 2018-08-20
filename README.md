@@ -1,2 +1,2 @@
 # VQtest
-something
+toolchain for Aupera VQ test
