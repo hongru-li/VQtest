@@ -26,3 +26,18 @@ toolchain for Aupera VQ test
 
 `folders/frames`      --  total frames of *.yuv
 
+## Setup 
+
+* install ffmpeg, x264, x265, MSU, vmaf tool
+
+* create a folder for each raw yuv video
+
+* fill res, fps, frames message in each folder
+
+* modify encode.sh, start26x.sh and run
+
+* run extract_bitrate.sh
+
+* run measure.py
+
+* use the Java tool in another repository to generate RD curves 
