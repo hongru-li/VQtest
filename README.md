@@ -26,6 +26,10 @@ toolchain for Aupera VQ test
 
 `folders/frames`      --  total frames of *.yuv
 
+`ext/measureVMAF.sh`  --  measure VMAF score of encoded videos in subfolders
+
+`ext/extractVMAF.sh`  --  gather VMAF scores and write vmaf.csv
+
 ## Setup 
 
 * install ffmpeg, x264, x265, MSU, vmaf tool
@@ -41,3 +45,24 @@ toolchain for Aupera VQ test
 * run measure.py
 
 * use the Java tool in another repository to generate RD curves 
+
+## Warnings
+
+### Low PSNR Issue
+
+Usually PSNR value should be higher than higher than 25, if you find PSNR is very low or doesn't go up as bitrate increases, there are usually three possible reasons:
+  * Video is not encoded correctly, play the bitstream with ffplay to test it visually, and check parameters, especially the resolution.
+  * MSU doen's decode the bitstream for comparison correctly. We already found MSU has bugs for comparing bitstreams encoded by Nvidia Tesla. For this, modify measure.py to decode the bitstream to raw yuv first with ffmpeg before calculating PSNR.
+  * ffmpeg duplicate frames and thus frames between original and encoded stream are not aligned. For this, make sure you use '-vsync 0' for ffmpeg decoding, which disables dup frames.
+
+### PSNR Channel
+
+Usually our PSNR refers to Y-PSNR, because human eyes are more sensitive to luminanace difference. However, some customers calculate PSNR by combining Y, U, V-PSNR in a customed ratio, for example: PSNR = (6*Y-PSNR + U-PSNR + V-PSNR)/8. For this, you need to modify measure.py and Java RD plotting tool. A modified measure.py is ext/mearuse2.py according to the sample equation.
+
+### APSNR vs PSNR
+
+APSNR and PSNR are two different metrics. For more details you can take a look at MSU's documentation. To sum up, APSNR is easier to calculate but less accurate, while PSNR cost more time for calculation, but precise. Some customers calculate PSNR use '-psnr' options in x264/265, which actually gives APSNR (not exactly the same value as APSNR given by MSU, but very close). Note APSNR is usually 1dB higher than PSNR and thus it is not fair to only calculate PSNR for v205 bistreams. Anyway, just make sure we use same metric for both sides. 
+
+### VMAF Speed Issue
+
+Measuring VMAF score is a very slow process. If the bitstream being tested has more than a thousand frames, don't choose to calculate VMAF or you will spend many days on it. 
