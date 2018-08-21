@@ -50,14 +50,14 @@ toolchain for Aupera VQ test
 
 ### Low PSNR Issue
 
-Usually PSNR value should be higher than higher than 25, if you find PSNR is very low or doesn't go up as bitrate increases, there are usually three possible reasons:
+Usually PSNR value should be higher than 25, if you find your result PSNR is very low or doesn't go up as bitrate increases, there are usually three possible reasons:
   * Video is not encoded correctly, play the bitstream with ffplay to test it visually, and check parameters, especially the resolution.
-  * MSU doen's decode the bitstream for comparison correctly. We already found MSU has bugs for comparing bitstreams encoded by Nvidia Tesla. For this, modify measure.py to decode the bitstream to raw yuv first with ffmpeg before calculating PSNR.
-  * ffmpeg duplicate frames and thus frames between original and encoded stream are not aligned. For this, make sure you use '-vsync 0' for ffmpeg decoding, which disables dup frames.
+  * MSU doesn't decode the bitstream for comparison correctly. We already found MSU has bugs for comparing bitstreams encoded by Nvidia Tesla. For this, modify measure.py to decode the bitstream to raw yuv first with ffmpeg before calculating PSNR.
+  * ffmpeg duplicate frames when decoding and thus frames between original and encoded streams are not aligned. For this, make sure you use '-vsync 0' for ffmpeg decoding, which disables dup frames.
 
 ### PSNR Channel
 
-Usually our PSNR refers to Y-PSNR, because human eyes are more sensitive to luminanace difference. However, some customers calculate PSNR by combining Y, U, V-PSNR in a customed ratio, for example: PSNR = (6*Y-PSNR + U-PSNR + V-PSNR)/8. For this, you need to modify measure.py and Java RD plotting tool. A modified measure.py is ext/mearuse2.py according to the sample equation.
+Usually our PSNR refers to Y-PSNR, because human eyes are more sensitive to luminanace difference. However, some customers calculate PSNR by combining Y, U, V-PSNR in a customed ratio, like: PSNR = (6*Y-PSNR + U-PSNR + V-PSNR)/8. For this, you need to modify measure.py and Java RD curve plotting tool. A modified measure.py can be ext/mearuse2.py according to the sample equation.
 
 ### APSNR vs PSNR
 
